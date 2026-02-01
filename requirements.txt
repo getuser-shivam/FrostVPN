@@ -1,0 +1,18 @@
+# FrostVPN Requirements
+# This file lists dependencies for the FrostVPN project
+
+# Core OpenVPN (system package)
+# - Install via: apt install openvpn (Linux)
+# - Install via: brew install openvpn (macOS) 
+# - Download from: https://openvpn.net/community-downloads/ (Windows)
+
+# Certificate Generation (Linux/WSL)
+openssl>=1.1.1
+
+# Optional: Python GUI for dark theme interface (future enhancement)
+# PyQt5>=5.15.0
+# darkdetect>=0.5.1
+
+# Optional: Network monitoring tools
+# psutil>=5.8.0
+# netifaces>=0.11.0
